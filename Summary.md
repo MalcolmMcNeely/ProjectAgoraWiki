@@ -26,3 +26,6 @@ Between our app service and backend can be done using the [Hypertext Application
 
 ##Data Migration - WIP
 Because we are making a replacement forum we will need to migrate existing data over to our new solution. The current SQL database should be accessible but reading from one database into our persistence is a future concern.
+
+##Discord Integration
+Discord offers a [seemingly painless way to shove in a server widget](https://blog.discordapp.com/add-the-discord-widget-to-your-site-d45ffcd718c6). This would be quite nice to have.
