@@ -13,3 +13,6 @@ The idea is to avoid merge hell from large epics, even though the benefit is dim
 
 #Unit Testing
 Should be included in their respective tasks.
+
+#Picking up work
+The backlog will (or should) be populated and we'll pick up work items as and when we want.
