@@ -4,10 +4,12 @@ Let's borrow something from [Trunk Based Development](https://trunkbaseddevelopm
 - Master (for deployment, may look to automatically deploy from this branch)
 - Develop
     - Task3/create-react-app
-    - Task5/basic-get-fetch-function
+    - Task4/basic-get-fetch-function
+    - Bug5/react-app-doesnt-support-something
     - Task6/integrate-react-and-function
+
 
 The idea is to avoid merge hell from large epics, even though the benefit is diminished somewhat in a smaller team, it's a practice that I'm eager to explore. We can still organise our work in terms of epics, stories, and tasks in DevOps since it is useful to do so but our branches should be tasks only.
 
 #Unit Testing
-Should be included in their respective tasks
+Should be included in their respective tasks.
