@@ -10,9 +10,9 @@ The prime candidate for this is [Material UI](https://material-ui.com/) for our 
 This will act as our [serverless (Functions as a Service)](https://martinfowler.com/articles/serverless.html) backend which will interact with our persistent data. This allows us to run code on-demand without having to provision or manage infrastructure and we only pay for the time spent running our code.
 
 ###Event Sourcing
-Because we are extremely cool kids, we will be using the [StreamStone](https://github.com/yevhen/Streamstone) NuGet package which is a small, non-opinionated library which facilitates [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) with Azure Table Storage.
+Because we are **extremely** cool kids, we will be using the [StreamStone](https://github.com/yevhen/Streamstone) NuGet package which is a small, non-opinionated library which facilitates [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) with Azure Table Storage.
 
-##Authentication
+##Authentication/Battle.net integration
 [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/) is, to my knowledge, free but we also have the option in utilizing Blizzard's [Battle.net OAuth2 API](https://develop.battle.net/documentation/guides/using-oauth) which will require us to register something-or-other at the [Battle.net developer portal](https://develop.battle.net/). An example of how to use Blizzard's authentication in NodeJS can be found [here](https://github.com/Blizzard/passport-bnet). If we do pursue this route then we will need to provide the ability for forum admin to override forum access in case of a user account being compromised.
 
 ##Data Persistence
@@ -23,6 +23,14 @@ Between our app service and backend can be done using the [Hypertext Application
 
 ##Data Migration - WIP
 Because we are making a replacement forum we will need to migrate existing data over to our new solution. The current SQL database should be accessible but reading from one database into our persistence is a future concern.
+
+##Unit Testing - WIP
+We haven't talked about this in depth:
+* JS: [Enzyme v3](https://airbnb.io/enzyme/) since we are using React >= 16
+* C#: Open to suggestions, I am fond of [MSpec](https://github.com/machine/machine.specifications)
+
+##Inversion of Control - TBD
+This needs to discussion.
 
 ##Discord Integration
 Discord offers a [seemingly painless way to shove in a server widget](https://blog.discordapp.com/add-the-discord-widget-to-your-site-d45ffcd718c6). This would be quite nice to have.
