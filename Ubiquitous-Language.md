@@ -1,38 +1,38 @@
-###Document
+### Document
 A generic term describing base level entity describing media content. This not only covers posts, but signatures, avatar areas in posts, etc.
 
-###Post
+### Post
 is-a document.
 
-###Thread 
+### Thread 
 is-a document. A collection of posts displayed from earliest to latest date created.
 
-###Board
+### Board
 is-a document. A collection of threads displayed from earliest to latest date created.
 
-###Category 
+### Category 
 is-a document. A collection of boards (e.g. *Public boards* is where the Recruitment Board will live, *Private* is where boards only accessible to guild members will live, etc.)
 
-###Forum Hierarchy
+### Forum Hierarchy
 Denotes the Board, Thread, and Post documents and the parent to child relationship of that order.
 
-###User
+### User
 A clump on data associated with a human being.
 
-###Avatar
+### Avatar
 is-a document. Unique section on a post displaying information about the user who made the post.
 
-###Character
+### Character
 A in-game character in WoW that belongs to a user.
 
-###User Access Level
+### User Access Level
 An integer that defines the default ability to access and interact with documents and other forum features.
 
-###Document Access Level
+### Document Access Level
 An integer that defines the default user access level needed to view/interact with said document.
 
-###Permission
+### Permission
 A boolean denoting the ability of a user to access/interact with specific documents which overrides the user access level.
 
-###Role
+### Role
 A set of default permissions and/or user access levels.
