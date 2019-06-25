@@ -1,0 +1,2 @@
+#Raid Calendar
+A permission based event organisation tool where users can sign up with one of their characters per event. Event organisers need to be able to create events at raid locations on specific dates. Users with the relevant access level need to be able to create, edit, and/or delete raid locations.
