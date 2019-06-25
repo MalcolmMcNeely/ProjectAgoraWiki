@@ -19,6 +19,12 @@ Denotes the Board, Thread, and Post documents and the parent to child relationsh
 ###User
 A clump on data associated with a human being.
 
+###Avatar
+is-a document. Unique section on a post displaying information about the user who made the post.
+
+###Character
+A in-game character in WoW that belongs to a user.
+
 ###User Access Level
 An integer that defines the default ability to access and interact with documents and other forum features.
 
