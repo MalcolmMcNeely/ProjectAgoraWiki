@@ -1,19 +1,14 @@
-> Posts
+#Basic Forum Requirements
+**Posts:** Create, Edit, Delete, Move, Lock
+**Threads:** Create, Edit, Delete, Move, Lock, Sticky, Announcement
+**Boards:** Create, Edit, Delete, Move
+**Categories:** Create, Edit, Delete
 
-Create, Edit, Delete, Move, Lock
+##User Profile
 
-> Threads
+**Signatures:** Create, Edit, Delete
+**Avatars:** Edit
 
-Create, Edit, Delete, Move, Lock, Sticky, Announcement
+#Raid Calendar
 
-> Boards
-
-Create, Edit, Delete, Move
-
-> Categories
-
-Create, Edit, Delete
-
-> User Profile
-
-Create, Edit, Delete Signatures
+#Permissions
