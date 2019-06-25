@@ -20,4 +20,5 @@
 * It is required to have special guild accounts that do not require Bnet integration. For example, old members who want to interact with the Board concerning the annual real life guildmeet.
 
 #Raid Calendar
+A permission based event organisation tool where users can sign up with one of their characters
 
