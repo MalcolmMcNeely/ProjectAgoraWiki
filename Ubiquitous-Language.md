@@ -13,6 +13,9 @@ is-a document. A collection of threads displayed from earliest to latest date cr
 ###Category 
 is-a document. A collection of boards (e.g. *Public boards* is where the Recruitment Board will live, *Private* is where boards only accessible to guild members will live, etc.)
 
+###Forum Hierarchy
+Denotes the Board, Thread, and Post documents and the parent to child relationship of that order.
+
 ###User
 A clump on data associated with a human being.
 
