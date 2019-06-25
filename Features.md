@@ -6,6 +6,11 @@
 * Threads and Posts require pagination navigation. While not a difficult obstacle, Azure Table queries [return a maximum of 1000 results](https://docs.microsoft.com/en-us/rest/api/storageservices/query-timeout-and-pagination) at any one time.
 * Re: limits, an Azure Table Storage row [cannot exceed 1MB](https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-the-table-service-data-model) and so we will need to use Blob Storage for large pieces of data.
 
+##Making Posts
+* Support emoji (priority on this TBD)
+* Posts made on the old website use [bbcode](https://www.bbcode.org/reference.php) and needs to support at least the following tags:
+    * Bold, italic, underline, strikethrough, font-size, font color, quote, link, link (named), image, image(resized), list, and list item.
+
 ##Permissions
 * The Forum Hierarchy will have assignable Access Levels 
 * By default, Forum Hierarchy access levels will inherit from the parent i.e. Threads will inherit from Boards
