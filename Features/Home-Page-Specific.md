@@ -1,0 +1,2 @@
+1) Carousel control capable of showing images and captions. UI component needs to be made to enable users with relevant access levels to create, edit, and delete entries. 
+2) Annoucement ticker showing text messages with a UI component for users with the relevant access levels to create, edit, and delete entries.
