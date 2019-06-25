@@ -19,3 +19,6 @@
 **Avatars:** Edit
 * It is required to have special guild accounts that do not require Bnet integration. For example, old members who want to interact with the Board concerning the annual real life guildmeet.
 
+#File Handling
+Users need to be able to upload images to Blob Storage either for personal access or shared spaces.
+
